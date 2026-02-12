@@ -4,7 +4,7 @@ const features = [
   {
     title: "Own Wallet & Identity",
     description:
-      "Your agent gets its own wallet, contact entry, and XMTP address — a first-class citizen on the device.",
+      "Your agent gets its own wallet, contact entry, and XMTP address. The agent is a first-class citizen on the device.",
   },
   {
     title: "Named by You",
