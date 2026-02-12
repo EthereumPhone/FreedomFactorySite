@@ -1,7 +1,7 @@
 const sdks = [
   {
     name: "Wallet SDK",
-    description: "ERC-4337 account abstraction under the hood — sign transactions, messages, and interact with chains with a simple API.",
+    description: "ERC-4337 account abstraction under the hood: sign transactions, messages, and interact with chains with a simple API.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M21 12V7H5a2 2 0 010-4h14v4M3 5v14a2 2 0 002 2h16v-5" />
@@ -20,7 +20,7 @@ const sdks = [
   },
   {
     name: "Terminal SDK",
-    description: "Display content on the dGEN1 Terminal — the small screen below the main screen.",
+    description: "Display content on the dGEN1 Terminal, the small screen below the main screen.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M4 17l6-5-6-5M12 19h8" />
@@ -29,7 +29,7 @@ const sdks = [
   },
   {
     name: "Matrix SDK",
-    description: "Control the LED Matrix — the light grid left of the Terminal on the dGEN1.",
+    description: "Control the LED Matrix, the light grid left of the Terminal on the dGEN1.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="3" y="3" width="7" height="7" rx="1" />
