@@ -12,7 +12,7 @@ const pillars = [
   },
   {
     title: "Open Protocols",
-    description: "Built on standards anyone can build on — XMTP and more.",
+    description: "Built on standards anyone can build on: XMTP, Ethereum, and more.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10A15.3 15.3 0 0112 2z" />
