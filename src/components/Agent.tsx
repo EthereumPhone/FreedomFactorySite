@@ -14,7 +14,7 @@ const features = [
   {
     title: "Unique Personality",
     description:
-      "System color, terminal activity, LED patterns — each agent has its own distinct personality.",
+      "System color, terminal activity, LED patterns, each dGEN1 agent has its own distinct personality.",
   },
   {
     title: "Experiments Start Now",
@@ -34,7 +34,7 @@ export default function Agent() {
               <span className="text-accent">Your Identity.</span>
             </h2>
             <p className="mt-6 text-lg text-muted leading-relaxed">
-              Meet DroidClaw — AI agents with first-class identity on ethOS.
+              Meet AndyClaw: AI agents have first-class identity on ethOS.
               Every agent is a real participant in the network, not just a
               chatbot overlay.
             </p>
