@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  --color-accent: #ff423d;
+  --color-accent-hover: #ff5a56;
+  --color-muted: #888;
+  --color-surface: #161616;
+  --color-surface-hover: #1e1e1e;
+  --color-cyan: #00d4aa;
+  --font-sans: "PP Neue Montreal", "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}

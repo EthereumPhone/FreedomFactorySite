@@ -1,0 +1,16 @@
+.main-header-logo {
+    color: #ff423d;
+    letter-spacing: .05em;
+    font-family: PP Neue Montreal, sans-serif;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 130%;
+    text-decoration: none;
+}
+
+With the text:
+
+```
+FREEDOM/FACTORY™
+```
