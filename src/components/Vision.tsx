@@ -40,8 +40,8 @@ export default function Vision() {
               Open by <span className="text-accent">Default</span>
             </h2>
             <p className="mt-6 text-lg text-muted leading-relaxed">
-              Freedom Factory is building ethOS — an open-source mobile operating
-              system for the dGEN1. We believe your phone should work for you,
+              Freedom Factory builds ethOS, an open-source mobile operating
+              system for the dGEN1. Your mobile device should work for you,
               not against you. Every layer is open, auditable, and extensible.
             </p>
           </div>
