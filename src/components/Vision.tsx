@@ -47,8 +47,8 @@ export default function Vision() {
           </div>
           <div className="relative aspect-[3/2] rounded-2xl overflow-hidden">
             <Image
-              src="/images/image3.webp"
-              alt="dGEN1 device with globe interface"
+              src="/images/vision-wallet.jpg"
+              alt="dGEN1 showing wallet with USDC, AAVE, ETH against cyan neon spiral"
               fill
               className="object-cover"
             />

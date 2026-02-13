@@ -1,16 +1,28 @@
+import Image from "next/image";
+
 export default function Skills() {
   return (
     <section id="skills" className="py-24 md:py-32 bg-surface/50">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-            Community-Powered <span className="text-accent">Skills</span>
-          </h2>
-          <p className="mt-6 text-lg text-muted leading-relaxed">
-            A public repository where users and developers contribute agent
-            skills. Extend what your agent can do with community-built modules —
-            from DeFi actions to notification handlers to custom automations.
-          </p>
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="relative aspect-[3/2] rounded-2xl overflow-hidden">
+            <Image
+              src="/images/skills-ecosystem.jpg"
+              alt="dGEN1 device held among glowing orbs showing token launch interface"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+              Community-Powered <span className="text-accent">Skills</span>
+            </h2>
+            <p className="mt-6 text-lg text-muted leading-relaxed">
+              A public repository where users and developers contribute agent
+              skills. Extend what your agent can do with community-built modules —
+              from DeFi actions to notification handlers to custom automations.
+            </p>
+          </div>
         </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-6">

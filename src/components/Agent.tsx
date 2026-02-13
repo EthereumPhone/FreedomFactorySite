@@ -56,8 +56,8 @@ export default function Agent() {
 
           <div className="order-1 md:order-2 relative aspect-[2/3] max-w-sm mx-auto rounded-2xl overflow-hidden">
             <Image
-              src="/images/image2.jpg"
-              alt="dGEN1 device showing wallet interface"
+              src="/images/agent-terminal.jpg"
+              alt="dGEN1 close-up showing LED matrix and terminal displaying TXN SUCCESS"
               fill
               className="object-cover"
             />

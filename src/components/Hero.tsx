@@ -6,8 +6,8 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/image1.jpg"
-          alt="Person holding dGEN1 device"
+          src="/images/hero-bg.jpg"
+          alt="Hand holding dGEN1 device with radar interface against blue ring light"
           fill
           className="object-cover"
           priority

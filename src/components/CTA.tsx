@@ -1,8 +1,17 @@
+import Image from "next/image";
+
 export default function CTA() {
   return (
     <section id="get-dgen1" className="py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="relative rounded-3xl bg-surface border border-white/5 overflow-hidden px-8 py-20 md:px-16 md:py-28 text-center">
+          {/* Background image */}
+          <Image
+            src="/images/cta-bg.jpg"
+            alt="dGEN1 device with red neon background"
+            fill
+            className="object-cover opacity-20"
+          />
           {/* Accent glow */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent/10 blur-[120px] rounded-full pointer-events-none" />
 
