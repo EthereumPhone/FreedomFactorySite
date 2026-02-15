@@ -4,38 +4,38 @@ const features = [
   {
     title: "Own Wallet & Identity",
     description:
-      "Your agent gets its own wallet, contact entry, and XMTP address. The agent is a first-class citizen on the device.",
+      "Your dGENt gets its own wallet, contact entry, and XMTP address. The dGENt is a first-class citizen on the device.",
   },
   {
     title: "Named by You",
     description:
-      "Give your agent a name or let it auto-generate one. It's yours to personalize.",
+      "Give your dGENt a name or let it auto-generate one. It's yours to personalize.",
   },
   {
     title: "Unique Personality",
     description:
-      "System color, terminal activity, LED patterns, each dGEN1 agent has its own distinct personality.",
+      "System color, terminal activity, LED patterns, each dGEN1 dGENt has its own distinct personality.",
   },
   {
     title: "Experiments Start Now",
     description:
-      "The agent framework is live on ethOS/dGEN1. Build, test, and push the boundaries today.",
+      "The dGENts framework is live on ethOS/dGEN1. Build, test, and push the boundaries today.",
   },
 ];
 
 export default function Agent() {
   return (
-    <section id="agent" className="py-24 md:py-32">
+    <section id="dgents" className="py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-              Your Agent.{" "}
+              Your dGENts.{" "}
               <span className="text-accent">Your Identity.</span>
             </h2>
             <p className="mt-6 text-lg text-muted leading-relaxed">
-              Meet AndyClaw: AI agents have first-class identity on ethOS.
-              Every agent is a real participant in the network, not just a
+              Meet AndyClaw: AI dGENts have first-class identity on ethOS.
+              Every dGENt is a real participant in the network, not just a
               chatbot overlay.
             </p>
 
