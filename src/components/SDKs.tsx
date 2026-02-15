@@ -2,6 +2,7 @@ const sdks = [
   {
     name: "Wallet SDK",
     description: "ERC-4337 account abstraction under the hood: sign transactions, messages, and interact with chains with a simple API.",
+    link: "https://docs.freedomfactory.io/build/jvm-sdk",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M21 12V7H5a2 2 0 010-4h14v4M3 5v14a2 2 0 002 2h16v-5" />
@@ -12,6 +13,7 @@ const sdks = [
   {
     name: "XMTP Messenger SDK",
     description: "Encrypted peer-to-peer messaging with the XMTP protocol.",
+    link: "https://docs.freedomfactory.io/build/xmtp-messenger-sdk",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
@@ -42,6 +44,7 @@ const sdks = [
   {
     name: "Contacts SDK",
     description: "Identity-aware contacts powered by open standards.",
+    link: "https://github.com/EthereumPhone/ContactsSDK/blob/main/README.md",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
@@ -53,6 +56,7 @@ const sdks = [
   {
     name: "Paymaster SDK",
     description: "Gasless transactions and sponsored user operations.",
+    link: "https://github.com/EthereumPhone/PaymasterSDK/blob/main/README.md",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="12" cy="12" r="10" />
@@ -77,20 +81,38 @@ export default function SDKs() {
         </div>
 
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {sdks.map((sdk) => (
-            <div
-              key={sdk.name}
-              className="bg-surface rounded-2xl p-6 border border-white/5 hover:border-accent/30 transition-colors group"
-            >
-              <div className="text-cyan group-hover:text-accent transition-colors mb-4">
-                {sdk.icon}
+          {sdks.map((sdk) => {
+            const content = (
+              <>
+                <div className="text-cyan group-hover:text-accent transition-colors mb-4">
+                  {sdk.icon}
+                </div>
+                <h3 className="text-lg font-semibold mb-1">{sdk.name}</h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  {sdk.description}
+                </p>
+              </>
+            );
+
+            return sdk.link ? (
+              <a
+                key={sdk.name}
+                href={sdk.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-surface rounded-2xl p-6 border border-white/5 hover:border-accent/30 transition-colors group block"
+              >
+                {content}
+              </a>
+            ) : (
+              <div
+                key={sdk.name}
+                className="bg-surface rounded-2xl p-6 border border-white/5 hover:border-accent/30 transition-colors group"
+              >
+                {content}
               </div>
-              <h3 className="text-lg font-semibold mb-1">{sdk.name}</h3>
-              <p className="text-sm text-muted leading-relaxed">
-                {sdk.description}
-              </p>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         <div className="mt-12 text-center">
