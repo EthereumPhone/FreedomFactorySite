@@ -23,6 +23,7 @@ const sdks = [
   {
     name: "Terminal SDK",
     description: "Display content on the dGEN1 Terminal, the small screen below the main screen.",
+    link: "https://docs.freedomfactory.io/build/dgen1-terminal-sdk",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M4 17l6-5-6-5M12 19h8" />
@@ -32,6 +33,7 @@ const sdks = [
   {
     name: "Matrix SDK",
     description: "Control the LED Matrix, the light grid left of the Terminal on the dGEN1.",
+    link: "https://docs.freedomfactory.io/build/dgen1-terminal-sdk",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="3" y="3" width="7" height="7" rx="1" />
@@ -44,7 +46,7 @@ const sdks = [
   {
     name: "Contacts SDK",
     description: "Identity-aware contacts powered by open standards.",
-    link: "https://github.com/EthereumPhone/ContactsSDK/blob/main/README.md",
+    link: "https://docs.freedomfactory.io/build/contacts-sdk",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
@@ -56,7 +58,7 @@ const sdks = [
   {
     name: "Paymaster SDK",
     description: "Gasless transactions and sponsored user operations.",
-    link: "https://github.com/EthereumPhone/PaymasterSDK/blob/main/README.md",
+    link: "https://docs.freedomfactory.io/build/paymaster-sdk",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="12" cy="12" r="10" />
