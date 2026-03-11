@@ -33,10 +33,40 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-32 md:py-40 w-full">
         <div className="max-w-2xl">
+          {/* Announcement badge */}
+          <div
+            className="hero-animate mb-6"
+            style={{ animationDelay: "0.15s" }}
+          >
+            <a
+              href="#dgents"
+              className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-accent/25 bg-accent/[0.06] hover:bg-accent/[0.1] transition-colors group"
+            >
+              <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-accent">
+                New
+              </span>
+              <span className="h-3 w-px bg-white/10" />
+              <span className="font-mono text-xs text-muted group-hover:text-foreground transition-colors">
+                dGENTs now use apps autonomously via Virtual Screen
+              </span>
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="text-muted group-hover:text-accent transition-colors"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
           {/* System tag */}
           <div
             className="hero-animate flex items-center gap-3 mb-8"
-            style={{ animationDelay: "0.2s" }}
+            style={{ animationDelay: "0.3s" }}
           >
             <span className="font-mono text-cyan text-xs tracking-wider">
               [00]
@@ -50,7 +80,7 @@ export default function Hero() {
           {/* Main heading */}
           <h1
             className="hero-animate font-display text-4xl sm:text-5xl md:text-7xl lg:text-[5.5rem] font-bold tracking-tight leading-[0.92]"
-            style={{ animationDelay: "0.4s" }}
+            style={{ animationDelay: "0.5s" }}
           >
             THE NEXT
             <br />
@@ -62,7 +92,7 @@ export default function Hero() {
           {/* Decorative line */}
           <div
             className="hero-animate mt-6 flex items-center gap-3"
-            style={{ animationDelay: "0.6s" }}
+            style={{ animationDelay: "0.7s" }}
           >
             <div className="h-px w-12 bg-accent/40" />
             <div className="w-1.5 h-1.5 rotate-45 border border-accent/40" />
@@ -72,7 +102,7 @@ export default function Hero() {
           {/* Terminal subtitle */}
           <p
             className="hero-animate mt-6 font-mono text-sm md:text-base text-muted/80 max-w-lg leading-relaxed"
-            style={{ animationDelay: "0.7s" }}
+            style={{ animationDelay: "0.8s" }}
           >
             <span className="text-cyan mr-2">$</span>
             An OS that embraces open protocols and gives users and their agents
@@ -83,7 +113,7 @@ export default function Hero() {
           {/* CTA buttons */}
           <div
             className="hero-animate mt-12 flex flex-wrap gap-4"
-            style={{ animationDelay: "0.9s" }}
+            style={{ animationDelay: "1s" }}
           >
             <a
               href="https://mint.freedomfactory.io"
